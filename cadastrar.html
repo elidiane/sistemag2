@@ -40,63 +40,60 @@
                     </ul>
                 </div> <!-- rede social -->
             </div>  <!-- Topo -->
+            <div id="principal">
+                <div id="contato">
+                    <form>
+                        <fieldset>
+                            <legend> Formulario de Cadastro</legend>
+                            <br/>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome"/>
 
+                            <label for="sobrenome">SobreNome:</label>
+                            <input type="text" name="sobrenome"/>
 
-            <form action="cadastrado.html" method="post" name="frmcadastro">
-                <ul>
-                    <li><a href="home.html">home</a></li>
-                    <li><a href="cadastra.html">inseri</a></li>
-                    <li><a href="altere.html">altere</a></li>
-                    <li><a href="delete.html">delete</a></li>      
-                </ul>
-                <br><br><br><br>
-                                <fieldset>
-                                    <legend>Dados Pessoais</legend>
-                                    <br><br>
-                                            <label>Nome: <input type="text" id="nome" name="nome" placeholder="digite seu nome" required></label>
-                                            <label>Sobrenome: <input type="text" id="sobrenome" name="sobrenome" placeholder="digite seu sobrenome" required></label>
-                                            <label>Endereço: <input type="text" id="endereco" name="endereco" placeholder="digite seu endereco" required></label>
-                                            <label class="pinput">nº<input type="text" class="pinput" id="nº" name="nº" required></label>  
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email"/>
 
-                                            <label>Estado:<select name="estado">
-                                                    <option value="escolha" selected="selected">escolha</option>
-                                                    <option value="AC">Acre</option>
-                                                    <option value="AL">Alagoas</option>
-                                                    <option value="AP">Amapá</option>
-                                                    <option value="AM">Amazonas</option>
-                                                    <option value="BA">Bahia</option>
-                                                    <option value="CE">Ceará</option>
-                                                    <option value="DF">Distrito Federal</option>
-                                                    <option value="ES">Distrito Santo</option>
-                                                    <option value="GO">Goiás</option>
-                                                    <option value="MA">Maranhão</option>
-                                                    <option value="MT">Mato Grosso</option>
-                                                    <option value="AM">Mato Grosso Sul</option>
-                                                    <option value="MS">Minas Gerais</option>
-                                                    <option value="PA">Pará</option>
-                                                    <option value="PB">Paraíba</option>
-                                                    <option value="PR">Paraná</option>
-                                                    <option value="PE">Pernanbuco</option>
-                                                    <option value="PI">Piauí</option>
-                                                    <option value="RJ">Rio de Janeiro</option>
-                                                    <option value="RS">Rio Grande do Sul</option>
-                                                    <option value="RO">Rondônia</option>
-                                                    <option value="RR">Roraima</option>
-                                                    <option value="SC">Santa Catariana</option>
-                                                    <option value="SP">São Paulo</option>
-                                                    <option value="SE">Sergipe</option>
-                                                    <option value="TO">Tocantins</option> 
-                                                </select></label>      
-                                            <label>País:<select name="país">
-                                                    <option value="escolha" selected="selected">escolha</option>
-                                                    <option value="BR"> Brasil</option>
-                                                    <option value="BR"> Portugual</option>
-                                                </select></label>
-                                            </fieldset>  
-                                            <label class="as"><input type="submit" class="as" name="password" value="enviar" /></label>
-                                            <label class="es"><a href="home.html"><input type="button" class="es" name="password" value="voltar"/></a></label>
-                                            </form>    
-                                            <br />
-                                            </div> <!-- Tudo -->
-                                            </body>
-                                            </html>
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" name="endereco"/>
+
+                            <label for="numero">nº:</label>
+                            <input type="text" name="numero"/>
+
+                            <label for="estado">Estado:
+                                <select name="estado">
+                                    <option value="escolha" selected="selected">escolha</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernanbuco</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option> 
+                                </select>
+                            </label>      
+                            <label for="pais">País:
+                                <select name="país">
+                                    <option value="escolha" selected="selected">escolha</option>
+                                    <option value="BR"> Brasil</option>
+                                    <option value="BR"> Portugual</option>
+                                </select>
+                            </label>
+
+                            <br/> 
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="mensagem"></textarea>
+
+                            <br/>
+                            <div align="center">  <input type="button" value="  Enviar " class="centro"/></div>
+                        </fieldset>
+                    </form>
+                </div>    
+            </div> <!-- Principal -->
+
+        </div> <!-- Tudo -->
+    </body>
+</html>

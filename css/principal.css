@@ -109,32 +109,6 @@ body {
 	color:#666;
 }
 
-
-/* Cursos */
-#tudo #cursos {
-    
-}
-
-#tudo #cursos h3 a {
-	color:#FF0000;
-}
-
-
-
-#tudo #cursos ul {
-	margin: 40px 0 0 0;
-}
-
-#tudo  #cursos ul li {
-	width:309px;
-	display:inline-block;
-	margin: 0 16px 0 0;
-}
-
-#tudo #cursos ul li.dif {
-	margin: 0 -16px 0 0;
-}
-
 #contato{
     width: 800px;
     margin: 0 auto;
@@ -144,9 +118,6 @@ body {
 #contato fieldset label{
     margin-left: 20px;   
 }
-#centro{
-    margin: 0 auto;
-}
 
 #tudo #parceiros ul li {
 	display:inline-block;
@@ -155,42 +126,20 @@ body {
 
 #rodape {
 	background:#C8453A;
-	height:100px;
+	height:50px;
 }
 
 #rodape_interna {
-	margin: 0 auto;
+	margin: 10px auto 100px;
 	width:960px;
 }
 
 #rodape_interna p {
+        text-align: center;
 	color:#fff;
-	line-height:100px;
-	float:left;
-	margin: 0 180px 0 0;
+	line-height:50px;
+	margin: 0 180px 0 300px;
 }
-
-#rodape_interna ul #menu_rodape li {
-	float:left;
-	line-height:100px;
-	margin: 0 0 0 40px;
-
-}
-
-#rodape_interna ul #menu_rodape li a{
-	color:#FFF;
-}
-
-#rodape_interna ul#menu_rodape li a:hover {
-	color:#FFFF00; /* Mudei */
-}
-
-#rodape_interna ul#redesocial_rodape li {
-	float:left;
-	line-height:120px;
-	margin: 0 0 0 30px;
-}
-
 
 #gallery {
 	position:relative;
