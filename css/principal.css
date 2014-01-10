@@ -1,0 +1,233 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style:none;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#tudo {
+	width:960px;
+	margin: 0 auto;
+}
+
+#tudo #topo {
+	height: 160px;
+}
+
+#tudo #topo #logo {
+	width:174px;
+	padding: 16px 0 0 16px;	
+	float:left;
+}
+
+#tudo #topo #logo h1 {
+	background: url(../img/logo.png) no-repeat;
+	width:158px;
+	height:128px;
+	text-indent: -5000000px;
+}
+
+#tudo #topo #menu {
+	width:675px;
+	float:left;
+	margin: 54px 0 0 0;
+	
+}
+
+#tudo #topo #menu ul {
+	background: #B83F35;
+	height:52px;
+	border-radius:10px;	
+}
+
+#tudo #topo #menu ul li {
+	float:left;
+	width:130px;
+	height:52px;
+	text-align:center;
+}
+
+#tudo #topo #menu ul li a {
+	line-height:52px;
+	color:#FFF;	
+}
+
+#tudo #topo #menu ul li a:hover {
+	background: #A93930; /* Mudei */
+	padding:17px; /* Mudei */
+}
+
+#tudo #topo #rede_social {
+	width: 95px;
+	float:right;
+}
+
+#tudo #topo #rede_social ul li {
+	display:inline-block;
+	margin: 64px 0 0 10px;
+}
+
+#tudo #principal #destaques_esq {
+	float:left;
+	width:469px;
+}
+#tudo #principal #destaques_esq img {
+	margin: 45px 0 0 0;
+}
+#tudo #principal #destaques_dir {
+	float:left;
+	width:466px;
+}
+#tudo #principal #destaques_dir h3 {
+	color:#666;
+	margin: 0 0 0 20px;
+}
+#tudo #principal #destaques_dir h4 {
+	float:right;
+	margin: 10px 20px 0 0;
+}
+#tudo #principal #destaques_dir h5 {
+	margin: 40px 0 0 20px;
+}
+#tudo #principal #destaques_dir ul li {
+	background: #EEE url(../img/inform.png) no-repeat;
+	width:210px;
+	display:inline-block;
+	margin: 0 0 10px 20px;
+}
+#tudo #principal #destaques_dir ul li p{
+	font-size:12px;
+	margin: 10px 0 6px 20px;
+}
+
+#tudo #principal #destaques_dir ul li a{
+	float:right;
+	color:#666;
+}
+
+
+/* Cursos */
+#tudo #cursos {
+    
+}
+
+#tudo #cursos h3 a {
+	color:#FF0000;
+}
+
+
+
+#tudo #cursos ul {
+	margin: 40px 0 0 0;
+}
+
+#tudo  #cursos ul li {
+	width:309px;
+	display:inline-block;
+	margin: 0 16px 0 0;
+}
+
+#tudo #cursos ul li.dif {
+	margin: 0 -16px 0 0;
+}
+
+#contato{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+#contato fieldset label{
+    margin-left: 20px;   
+}
+#centro{
+    margin: 0 auto;
+}
+
+#tudo #parceiros ul li {
+	display:inline-block;
+	margin: 20px 0 0 30px;
+}
+
+#rodape {
+	background:#C8453A;
+	height:100px;
+}
+
+#rodape_interna {
+	margin: 0 auto;
+	width:960px;
+}
+
+#rodape_interna p {
+	color:#fff;
+	line-height:100px;
+	float:left;
+	margin: 0 180px 0 0;
+}
+
+#rodape_interna ul #menu_rodape li {
+	float:left;
+	line-height:100px;
+	margin: 0 0 0 40px;
+
+}
+
+#rodape_interna ul #menu_rodape li a{
+	color:#FFF;
+}
+
+#rodape_interna ul#menu_rodape li a:hover {
+	color:#FFFF00; /* Mudei */
+}
+
+#rodape_interna ul#redesocial_rodape li {
+	float:left;
+	line-height:120px;
+	margin: 0 0 0 30px;
+}
+
+
+#gallery {
+	position:relative;
+	height:320px;
+}
+#gallery a {
+        float:left;
+        position:absolute;
+}
+
+#gallery a img {
+        border:none;
+}
+#gallery a img {
+        border:none;
+        width: 465px;
+        height: 275px;
+}
+
+#gallery .caption {
+        z-index:600; 
+        background-color:#000; 
+        color:#ffffff; 
+        height:100px; 
+        width:100%; 
+        position:absolute;
+        bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

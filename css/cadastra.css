@@ -1,0 +1,35 @@
+body {
+    background-color:  background;
+}
+fieldset {
+    width: 600px;
+}
+fieldset legend {
+    font: bold 18px Verdana, Geneva, Arial, Helvetica, sansi-serif;
+    color: darkcyan;
+     float: left;
+}
+label {
+    display: block;
+    font:  14px Verdana, Geneva, Arial, Helvetica, sansi-serif;
+   
+    width: 200px;
+}
+label, input {
+    width: 200px;
+    margin: 10px;
+}
+.pinput{
+    width: 50px;
+}
+input:focus {
+    border: 2px solid green;
+    background-color: beige;
+}
+.as {  
+width: 50px; 
+}
+.es {  
+width: 50px;
+float: center;
+}
