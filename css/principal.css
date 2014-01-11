@@ -112,7 +112,8 @@ body {
 #contato{
     width: 800px;
     margin: 0 auto;
-    
+    font: bold 18px Verdana, Geneva, Arial, Helvetica, sansi-serif;
+    color: darkcyan;
 }
 
 #contato fieldset label{
