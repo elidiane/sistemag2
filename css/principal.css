@@ -128,6 +128,23 @@ body {
     color: rgba(250, 128, 114, 0.7);
     text-shadow: 0 1px 1px #fff;
 }
+#curso table {
+    width:50%;
+    border-collapse: initial;
+    margin: 0 auto;
+}
+#curso table td, th{
+    border:1px solid #2424FF;
+    padding:3px 7px 2px 7px;
+}
+#curso table th{
+    font-size:1.2em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color: skyblue;
+    color: lightpink;
+}
 
 #tudo #parceiros ul li {
     display:inline-block;
